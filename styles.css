@@ -19,12 +19,28 @@ body {
     background-color: hsl(213, 19%, 18%);
     display: flex; 
     flex-direction: row;
-    width: 291px;
-    height: 263px;
+    width: 271px;
+    height: 270px;
     align-items: start;
     justify-content: start;
     border-radius: 20px;
     box-shadow: 0px 0px 16px -6px rgba(0,0,0,0.63);
+}
+.circle{
+    height: 38px;
+    width: 38px;
+    background-color: hsl(213deg 18.2% 14.66%);
+    border-radius: 24px;
+    margin: 20px;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 13px;
+    height: 13px;
 }
 
 @media (max-width: 768px) {
