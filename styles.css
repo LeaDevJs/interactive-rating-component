@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    font-family: 'Overpass', sans-serif;;
+}
 body {
     margin: 0;
     padding: 0;
@@ -18,7 +22,7 @@ body {
 .card{
     background-color: hsl(213, 19%, 18%);
     display: flex; 
-    flex-direction: row;
+    flex-direction: column;
     width: 271px;
     height: 270px;
     align-items: start;
@@ -26,12 +30,15 @@ body {
     border-radius: 20px;
     box-shadow: 0px 0px 16px -6px rgba(0,0,0,0.63);
 }
+.star{
+    margin: 20px;
+}
 .circle{
-    height: 38px;
-    width: 38px;
+    height: 35px;
+    width: 35px;
     background-color: hsl(213deg 18.2% 14.66%);
     border-radius: 24px;
-    margin: 20px;
+    font-weight: 400;
 }
 .center {
     display: flex;
@@ -42,7 +49,52 @@ body {
     width: 13px;
     height: 13px;
 }
-
+.title{
+    margin-left: 20px;
+}
+.title h1{
+    margin: 0;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.paragraph{
+    margin-top: 8px;
+    margin-left: 20px;
+    width: 80%;
+    font-size: 10px;
+}
+.paragraph p{
+    font-weight: 400;
+    margin-top: 0;
+    color:hsl(216, 12%, 54%) ;
+}
+.circles{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 10px;
+    color:hsl(216, 12%, 54%) ;
+}
+.m{
+    margin-right:13px;
+}
+.submit button{
+    font-weight: 400;
+    margin-left: 20px;
+    border-radius: 20px;
+    color: white;
+    border-width: 1px;
+    padding-left: 92px;
+    padding-right: 92px;
+    margin-top: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: hsl(25, 97%, 53%);
+    LETTER-SPACING: 2px;
+    font-size: 0.7em;
+    color: white;
+}
 @media (max-width: 768px) {
     .container-flex{
         display: flex;

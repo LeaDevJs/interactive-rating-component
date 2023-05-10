@@ -1,1 +1,1 @@
-ultima actualizacion: Creacion del circulo que contiene elementos, lo siguiente sería ya acomodar los elementos ya que el circulo tiene un tamaño y un centrado.
+cambiar tamaño numeros dentro de los circulos
