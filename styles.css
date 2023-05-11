@@ -36,9 +36,10 @@ body {
 .circle{
     height: 35px;
     width: 35px;
-    background-color: hsl(213deg 18.2% 14.66%);
+    background-color: hsl(213deg 17.8% 20.5%);
     border-radius: 24px;
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 11px;
 }
 .center {
     display: flex;
@@ -80,14 +81,14 @@ body {
     margin-right:13px;
 }
 .submit button{
-    font-weight: 400;
+    font-weight: 700;
     margin-left: 20px;
     border-radius: 20px;
     color: white;
     border-width: 1px;
     padding-left: 92px;
     padding-right: 92px;
-    margin-top: 10px;
+    margin-top: 22px;
     padding-top: 9px;
     padding-bottom: 9px;
     background-color: hsl(25, 97%, 53%);
