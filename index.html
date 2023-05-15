@@ -33,13 +33,14 @@
         to help us improve our offering!</p>
     </div>
     <div class="circles">
-      <div class="circle center m">1</div>
-      <div class="circle center m">2</div>
-      <div class="circle center m">3</div>
-      <div class="circle center m">4</div>
-      <div class="circle center m">5</div>
+      <div onclick="handleSelect1()" id="circle1" class="circle center m">1</div>
+      <div onclick="handleSelect2()" id="circle2" class="circle center m">2</div>
+      <div onclick="handleSelect3()" id="circle3" class="circle center m">3</div>
+      <div onclick="handleSelect4()" id="circle4" class="circle center m">4</div>
+      <div onclick="handleSelect5()" id="circle5" class="circle center m">5</div>
     </div>
-    <div class="submit"><button>SUBMIT</button></div>
+    <div class="submit"><a href="selected.html"><button onclick="handleSubmit()">SUBMIT</button></a></div>
+    
   </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
@@ -48,28 +49,6 @@
   
   </div>
 
-  <!-- Rating state start -->
-
- 
-
-  
-
-
-  
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
-  
+  <script src="/index.js"></script>
 </body>
 </html>

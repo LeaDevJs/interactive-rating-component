@@ -77,6 +77,14 @@ body {
     margin-top: 10px;
     color:hsl(216, 12%, 54%) ;
 }
+.circles .circle{
+    transition: 0.5s;
+}
+.circles .circle:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
 .m{
     margin-right:13px;
 }
@@ -95,7 +103,20 @@ body {
     LETTER-SPACING: 2px;
     font-size: 0.7em;
     color: white;
+    transition: 0.5s;
 }
+.submit button:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%) ;
+    cursor: pointer;
+}
+.select{
+    background-color:hsl(217, 12%, 63%) ;
+    color: white;
+}
+/*CLASSES OF SELECTED*/
+
+
 @media (max-width: 768px) {
     .container-flex{
         display: flex;
