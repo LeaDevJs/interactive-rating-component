@@ -1,1 +1,1 @@
-Terminar diseño de selected
+Interactive-rating-component by Leandro Zapata for FrontendMentor
